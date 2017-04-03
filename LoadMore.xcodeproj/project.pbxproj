@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF5C3E811E91DCAF00B26465 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5C3E801E91DCAF00B26465 /* TableViewController.swift */; };
 		FF734BF71E8E72690078FE40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF734BF61E8E72690078FE40 /* AppDelegate.swift */; };
 		FF734BF91E8E72690078FE40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF734BF81E8E72690078FE40 /* ViewController.swift */; };
 		FF734BFC1E8E72690078FE40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF734BFA1E8E72690078FE40 /* Main.storyboard */; };
 		FF734BFE1E8E72690078FE40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF734BFD1E8E72690078FE40 /* Assets.xcassets */; };
 		FF734C011E8E72690078FE40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF734BFF1E8E72690078FE40 /* LaunchScreen.storyboard */; };
+		FF734C091E8E78A80078FE40 /* Champ.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF734C081E8E78A80078FE40 /* Champ.swift */; };
+		FF734C0B1E8E87E50078FE40 /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF734C0A1E8E87E50078FE40 /* DataServices.swift */; };
+		FF734C0F1E8E89C70078FE40 /* APIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF734C0E1E8E89C70078FE40 /* APIServices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF5C3E801E91DCAF00B26465 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		FF734BF31E8E72690078FE40 /* LoadMore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadMore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF734BF61E8E72690078FE40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF734BF81E8E72690078FE40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		FF734BFD1E8E72690078FE40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF734C001E8E72690078FE40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF734C021E8E72690078FE40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF734C081E8E78A80078FE40 /* Champ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Champ.swift; sourceTree = "<group>"; };
+		FF734C0A1E8E87E50078FE40 /* DataServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		FF734C0E1E8E89C70078FE40 /* APIServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIServices.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 			children = (
 				FF734BF61E8E72690078FE40 /* AppDelegate.swift */,
 				FF734BF81E8E72690078FE40 /* ViewController.swift */,
+				FF5C3E801E91DCAF00B26465 /* TableViewController.swift */,
+				FF734C0A1E8E87E50078FE40 /* DataServices.swift */,
+				FF734C0E1E8E89C70078FE40 /* APIServices.swift */,
+				FF734C081E8E78A80078FE40 /* Champ.swift */,
 				FF734BFA1E8E72690078FE40 /* Main.storyboard */,
 				FF734BFD1E8E72690078FE40 /* Assets.xcassets */,
 				FF734BFF1E8E72690078FE40 /* LaunchScreen.storyboard */,
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF734BF91E8E72690078FE40 /* ViewController.swift in Sources */,
+				FF5C3E811E91DCAF00B26465 /* TableViewController.swift in Sources */,
+				FF734C091E8E78A80078FE40 /* Champ.swift in Sources */,
 				FF734BF71E8E72690078FE40 /* AppDelegate.swift in Sources */,
+				FF734C0B1E8E87E50078FE40 /* DataServices.swift in Sources */,
+				FF734C0F1E8E89C70078FE40 /* APIServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +320,7 @@
 				FF734C071E8E72690078FE40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
